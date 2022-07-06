@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped ExtLight';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Thai Looped';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
