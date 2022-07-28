@@ -1,0 +1,835 @@
+/**
+ * @name SphereUI Discord
+ * @version 1.0.0
+ * @description iPad UI Style with css
+ * @author Zerine
+ * 
+ * @website https://github.com/Rinechxn/SphereUI-Discord
+ */
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-ExtraBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped ExtLight";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+body, h1, div, input, textarea, input, h2, h3, h4, h5 {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+h1 {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+div,
+input,
+textarea,
+input {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.name-28HaxV {
+  color: rgba(255, 255, 255, 0.6862745098);
+}
+
+:root {
+  --text-normal: #ffffff;
+}
+
+/* Scrollbars */
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  border: 0;
+  margin-right: 0;
+  background-color: #2e3440;
+  width: 20px;
+}
+
+.auto-2K3UW5::-webkit-scrollbar-thumb {
+  border-right: 6.5px solid transparent;
+  border-left: 6.5px solid transparent;
+  border-radius: 40.8%;
+}
+.auto-2K3UW5::-webkit-scrollbar-track {
+  border-right: 6.5px solid transparent;
+  border-left: 6.5px solid transparent;
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before {
+  display: var(--outdated_windowsXI-082, block) !important;
+  position: absolute;
+  left: 32% !important;
+  width: fit-content;
+  border-radius: 0 0 12px 12px !important;
+  top: 48px !important;
+}
+
+div[class*=root] > div[class*=body] > div[class*=listScroller] {
+  flex-wrap: wrap;
+}
+div[class*=headerText] > .lastMessageDate-ocEw13, div[class*=headerText] > .creationDate-CJwdKT, div[class*=headerText] > .joinedAtDate-IawR02 {
+  /*margin-top:18px !important;*/
+  margin-top: 0px !important;
+  position: absolute;
+  top: 35px;
+  /*20px*/
+}
+div[id*=popout] div[class*=headerTop] > div[class*=headerText] {
+  padding-bottom: 20px;
+}
+div[class*=topSection] .lastMessageDate-ocEw13 {
+  margin-top: -45px !important;
+  position: relative !important;
+}
+div[class*=topSection] .creationDate-CJwdKT, div[class*=topSection] .joinedAtDate-IawR02 {
+  margin-top: 0px !important;
+  position: relative !important;
+}
+div[class*=headerTagNoNickname] {
+  height: 24px;
+  overflow: visible;
+}
+
+.circleIconButton-1VxDrg {
+  color: aliceblue;
+}
+
+.base-2jDfDU {
+  background-color: rgba(14, 14, 14, 0.5411764706);
+}
+
+/* Titlebar */
+::root {
+  --titlebar-color: #000000;
+}
+
+.titleBar-1it3bQ {
+  height: 24px;
+}
+
+.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
+  background-color: rgba(14, 14, 14, 0.5411764706) !important;
+}
+
+.titleBar-1it3bQ {
+  padding-right: 8px;
+}
+.titleBar-1it3bQ > :nth-child(2):hover {
+  background-color: #ff1e00;
+}
+.titleBar-1it3bQ > :nth-child(3):hover {
+  background-color: #ffbf00;
+}
+.titleBar-1it3bQ > :nth-child(4):hover {
+  background-color: #00ff00;
+}
+.titleBar-1it3bQ > :nth-child(2) {
+  /* display: none; */
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 9999px;
+  width: 7px;
+  height: 7px;
+  margin-top: 8px;
+  margin-left: 4px;
+}
+.titleBar-1it3bQ > :nth-child(3) {
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 9999px !important;
+  width: 7px;
+  height: 7px;
+  margin-top: 8px;
+  margin-left: 4px;
+  border: none !important;
+}
+.titleBar-1it3bQ > :nth-child(4) {
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 9999px;
+  width: 7px;
+  height: 7px;
+  margin-top: 8px;
+  margin-left: 4px;
+}
+
+.wordmark-2u86JB {
+  left: 8px;
+}
+.wordmark-2u86JB:after {
+  color: #f7f5f5;
+  content: "Electron Discord";
+  font-size: 11px;
+  font-weight: 700;
+}
+.wordmark-2u86JB:before {
+  content: "" var(--version);
+  color: rgba(var(--alt-color), 0.7);
+  background-color: var(--glasscord-secondary-alt);
+  font-size: 14.1px;
+  font-weight: 700;
+  position: absolute;
+  display: var(--display-version) !important;
+  width: 4000px;
+  top: 4.5px;
+  left: calc(var(--Watermark-Alignment) + 310%);
+  display: var(--version-display);
+}
+
+.theme-light .wordmark-2u86JB:after {
+  color: #303030;
+}
+
+.theme-dark .wordmark-2u86JB:after {
+  color: #f7f5f5;
+}
+
+.wordmark-2u86JB > svg {
+  width: 0;
+}
+
+.winButton-3UMjdg {
+  position: relative;
+  top: -3.5px;
+  cursor: pointer;
+  width: 32px;
+  height: 30px;
+  pointer-events: auto;
+  -webkit-app-region: no-drag;
+}
+
+.wordmarkWindows-2dq6rw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2px 9px 3px;
+  color: var(--text-muted);
+}
+
+.content-1SgpWY {
+  padding: 16px;
+  border-radius: 8px;
+}
+
+nav.wrapper-1_HaEi.guilds-2JjMmN [aria-label=แถบด้านข้างของเซิร์ฟเวอร์] {
+  padding-top: 16px !important;
+}
+
+.tree-3agP2X {
+  padding-top: 16px !important;
+  padding-left: 8px;
+  padding-bottom: 16px;
+}
+
+.wrapper-1_HaEi {
+  background-color: rgba(14, 14, 14, 0.5411764706);
+}
+
+.scroller-3X7KbA {
+  background-color: transparent;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  background-color: rgba(254, 254, 254, 0.068);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  background-color: rgba(75, 75, 75, 0.3960784314);
+}
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
+  background-color: transparent;
+}
+
+.sidebarRegion-1VBisG {
+  -ms-flex: 1 0 218px;
+  flex: 0 0 0px;
+  z-index: 1;
+  -ms-flex-pack: end;
+}
+
+.sidebarRegionScroller-FXiQOh {
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: end;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: var(--sph-black);
+}
+
+.sidebar-nqHbhN {
+  width: 318px;
+  padding: 60px 6px 60px 20px;
+  background-color: var(--sph-mblack);
+}
+
+.contentTransitionWrap-1YD530 {
+  background-color: var(--sph-black) !important;
+}
+
+.contentRegionScroller-2_GT_N {
+  background-color: var(--sph-black);
+}
+
+.closeButton-PCZcma {
+  border: none;
+}
+
+:root {
+  --sph-black: #000000;
+  --sph-mblack: #0e0e0ee0;
+}
+
+.hero-1aNo0v {
+  max-width: 660px;
+  height: 304px;
+}
+
+.panels-3wFtMD {
+  background-color: rgba(22, 22, 22, 0.8784313725);
+}
+
+.unread-2wipsx {
+  opacity: 1;
+  background-color: rgba(49, 49, 49, 0.4666666667);
+  backdrop-filter: blur(16px);
+}
+
+.theme-dark .menu-1QACrS {
+  min-width: 240px;
+  background-color: rgba(22, 22, 22, 0.93);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  position: relative;
+}
+.theme-dark .menu-1QACrS::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  border-radius: 4px;
+}
+.theme-dark .menu-1QACrS .scroller-1bVxF5 {
+  max-height: calc(100vh - 64px);
+}
+.theme-dark .menu-1QACrS .separator-1So4YB {
+  margin: 10px 4px;
+  border-bottom-color: rgba(255, 255, 255, 0.0837);
+}
+.theme-dark .menu-1QACrS .item-1OdjEX {
+  min-height: 34px;
+  margin: 2px 0 2px -4px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-feature-settings: "rclt" 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FFF;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX.focused-3qFvc8 {
+  background-color: rgba(255, 255, 255, 0.0326);
+}
+.theme-dark .menu-1QACrS .item-1OdjEX.colorDanger-3n-KnP {
+  color: #FF99A4;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX.disabled-oOAXat {
+  color: rgba(255, 255, 255, 0.3628);
+  opacity: 1;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX::before {
+  padding-right: 12px;
+  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
+  font-size: 16px;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id*=spotify] .subtext-2GlkbE, .theme-dark .menu-1QACrS .item-1OdjEX[id*=listen] .subtext-2GlkbE {
+  display: none;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX .optionName-1ebPjH {
+  margin: 0;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX .optionLabel-1o-h-l {
+  font-feature-settings: "rclt" 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX .subtext-2GlkbE {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.786);
+}
+.theme-dark .menu-1QACrS .item-1OdjEX .subtext-2GlkbE strong {
+  font-weight: normal;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX:not([role=menuitemcheckbox]):not([role=menuitemradio]) .icon-E4cW1l, .theme-dark .menu-1QACrS .item-1OdjEX .optionIcon-1Ft8w0 {
+  display: none;
+}
+.theme-dark .menu-1QACrS .button-1zW0-r {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.0326);
+}
+.theme-dark .menu-1QACrS .button-1zW0-r.focused-H4w81f {
+  background-color: rgba(255, 255, 255, 0.0326);
+  box-shadow: none;
+}
+.theme-dark .menu-1QACrS .button-1zW0-r .icon-Yl4xbA {
+  width: 18px;
+  height: 18px;
+}
+.theme-dark .menu-1QACrS .sliderContainer-2nidiS {
+  padding: 0;
+}
+.theme-dark .menu-1QACrS .slider-1NC-Gf.mini-2qY9iv .bar-1Bhnl9 {
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.5442);
+  border-radius: 2px;
+}
+.theme-dark .menu-1QACrS .slider-1NC-Gf.mini-2qY9iv .barFill-2Bh7CX {
+  height: 3px;
+  position: absolute;
+  background-color: hsl(var(--fluent-accent-hue-sat), var(--fluent-accent-lightness));
+  border-radius: 2px;
+}
+.theme-dark .menu-1QACrS .slider-1NC-Gf.mini-2qY9iv .grabber-2GQyvM {
+  width: 12px;
+  height: 12px;
+  margin-top: -1px;
+  background-color: hsl(var(--fluent-accent-hue-sat), var(--fluent-accent-lightness));
+  border: 4px solid #454545;
+}
+.theme-dark .menu-1QACrS .slider-1NC-Gf.mini-2qY9iv .grabber-2GQyvM:hover {
+  width: 14px;
+  height: 14px;
+  border: 3px solid #454545;
+}
+.theme-dark .menu-1QACrS .slider-1NC-Gf.mini-2qY9iv .grabber-2GQyvM:active {
+  width: 10px;
+  height: 10px;
+  border: 5px solid #454545;
+}
+.theme-dark .menu-1QACrS .submenu-1apzyU {
+  min-width: 240px;
+  background-color: rgba(24, 24, 24, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.theme-dark .menu-1QACrS .submenu-1apzyU::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+}
+
+.image-36HiZc, .modal-3Crloo {
+  border-radius: 12px;
+  transition-duration: 250ms;
+}
+
+.image-36HiZc:hover {
+  transform: scale(0.98);
+  transition-duration: 250ms;
+}
+.image-36HiZc:active {
+  transform: scale(0.95);
+  transition-duration: 250ms;
+}
+
+div.backdrop-2ByYRN {
+  background: none !important;
+  opacity: 1 !important;
+  background-color: var(--sphmodalbg) !important;
+  backdrop-filter: var(--sphblrui) !important;
+  transition-duration: 250ms;
+}
+
+:root {
+  --sphmodalbg: #0e0e0ee0;
+}
+
+.container-3XgAHv {
+  background: none;
+  background-color: var(--sphblrcol);
+  backdrop-filter: var(--sphblrui);
+}
+
+.floating-3M3WeH {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  z-index: 100;
+  border-left: 1px solid var(--sphblrcol);
+  -webkit-filter: drop-shadow(0 8px 40px rgba(0, 0, 0, 0.32));
+  filter: drop-shadow(0 8px 40px hsla(0deg, 0%, 0%, 0.32));
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+  background: none;
+}
+
+.theme-dark .container-2cd8Mz {
+  background-color: transparent;
+}
+
+.container-1oAagU {
+  background-color: transparent;
+}
+
+.nowPlayingColumn-1eCBCN {
+  background-color: transparent;
+}
+
+.scroller-hE2gWq {
+  border-left: none;
+}
+
+.scrollableContainer-15eg7h {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: transparent;
+  max-height: 50vh;
+  border-radius: 8px;
+  scrollbar-width: none;
+}
+
+.channelTextArea-1FufC0 {
+  margin-bottom: 22px;
+  margin-top: 22px;
+  background-color: rgba(27, 27, 27, 0.3215686275);
+}
+
+.messagesWrapper-RpOMA3 {
+  position: unset;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  z-index: 0;
+}
+
+.form-3gdLxP {
+  background-color: rgba(24, 24, 24, 0.5411764706);
+  backdrop-filter: blur(16px);
+}
+
+.scroller-kQBbkU {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 64px;
+}
+
+.form-3gdLxP:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0rem;
+  width: 1.25rem;
+}
+
+:root {
+  --sphblrcol: #2525258e;
+  --sphheadercol: #2e2e2e2f;
+  --sphblrui: blur(16px);
+  --sphcallclr: #00fff2;
+  --text-positive: #00fff2;
+}
+
+.rtcConnectionStatusConnected-1c73OK {
+  color: var(--sphcallclr);
+}
+
+svg.ping-2IpLcU {
+  color: var(--sphcallclr);
+  fill: var(--sphcallclr) !important;
+}
+
+.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
+  color: var(--sphcallclr);
+}
+
+.container-1NXEtd {
+  background-color: var(--sphchatsidecol) !important;
+}
+
+:root {
+  --sphchatsidecol: #0e0e0e;
+}
+
+.chat-2ZfjoI {
+  background: none;
+  background-color: rgba(14, 14, 14, 0.5411764706);
+}
+
+.container-2o3qEW {
+  background-color: rgba(14, 14, 14, 0.5411764706);
+}
+
+.members-3WRCEx,
+.members-3WRCEx > div {
+  background-color: transparent;
+}
+
+.scroller-WSmht3 {
+  background-color: rgba(14, 14, 14, 0.5411764706);
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+  background-color: rgba(48, 48, 48, 0.4196078431);
+}
+
+.markup-eYLPri code {
+  background-color: rgba(14, 14, 14, 0.5411764706);
+}
+
+.container-2ebMPP {
+  background-color: rgba(30, 30, 30, 0.631372549);
+  backdrop-filter: blur(16px);
+  padding-bottom: 16px;
+}
+
+.channelHeader-DFRX8q {
+  background-color: rgba(14, 14, 14, 0.6039215686);
+  backdrop-filter: blur(16px);
+}
+
+.header-1w9Q93 {
+  backdrop-filter: blur(16px);
+}
+
+.messages-23can0 {
+  background-color: transparent;
+  backdrop-filter: blur(16px);
+}
+
+.embedFull-1HGV2S {
+  background-color: transparent;
+  backdrop-filter: blur(16px);
+}
+
+.headerContainer-1wJjOa {
+  background-color: rgba(83, 83, 83, 0.2745098039);
+  color: #000000 !important;
+  padding: 4px;
+  border-radius: 8px;
+  width: 97%;
+}
+
+.theme-dark .newPopoutActivityStyles .headerText-3g1XK9, .theme-dark .newProfileActivityStyles .headerText-3g1XK9, .theme-light .newPopoutActivityStyles .headerText-3g1XK9, .theme-light .newProfileActivityStyles .headerText-3g1XK9 {
+  color: #ffffff;
+}
+
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  background-color: rgba(65, 65, 65, 0.4431372549);
+}
+
+.activity-1gTu-L {
+  background-color: rgba(85, 85, 85, 0.1921568627);
+  padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.avatarWrapper-eenWra {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 34%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.userPopout-2j1gM4 {
+  background-color: rgba(14, 14, 14, 0.6039215686);
+  border-radius: 8px;
+  backdrop-filter: blur(16px);
+}
+
+.headerText-1-WmDq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodyInnerWrapper-2bQs1k {
+  background-color: transparent;
+  color: var(--interactive-active);
+}
+
+.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
+  opacity: 1;
+  background: none;
+  background-color: transparent;
+}
+
+.body-1Ukv50, .topSection-13QKHs {
+  background-color: rgba(14, 14, 14, 0.3294117647);
+}
+
+.container-1ILvLB {
+  background: rgba(14, 14, 14, 0.4392156863);
+  backdrop-filter: blur(16px);
+}
